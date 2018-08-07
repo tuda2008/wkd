@@ -1,0 +1,198 @@
+// Place all the styles related to the dynamics controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@media (min-width: 1280px) {
+    .dynamic {
+	  width: 1200px;
+	}
+
+	.dynamic dl {
+	  width: 1130px;
+	  padding: 25px 0;
+	  overflow: hidden;
+	}
+
+	.dynamic dl dd {
+	  float: right;
+	  width: 930px;
+	  overflow: hidden;
+	  line-height: 24px;
+	}
+
+	.dynamic dl dd .con {
+	  width: 728px;
+	  background: #fff;
+	  padding-bottom: 10px;
+	  border: #e6e6e6 1px solid;
+	  border-radius: 5px;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1279px) {
+    .dynamic {
+	  width: 1100px;
+	}
+
+	.dynamic dl {
+	  width: 1030px;
+	  padding: 25px 0;
+	  overflow: hidden;
+	}
+
+	.dynamic dl dd {
+	  float: right;
+	  width: 830px;
+	  overflow: hidden;
+	  line-height: 24px;
+	}
+
+	.dynamic dl dd .con {
+	  width: 668px;
+	  background: #fff;
+	  padding-bottom: 10px;
+	  border: #e6e6e6 1px solid;
+	  border-radius: 5px;
+	}
+}
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+    .dynamic {
+	  width: 980px;
+	}
+
+	.dynamic dl {
+	  width: 960px;
+	  padding: 25px 0;
+	  overflow: hidden;
+	}
+
+	.dynamic dl dd {
+      float: right;
+      width: 720px;
+      overflow: hidden;
+      line-height: 24px;
+	}
+
+	.dynamic dl dd .con {
+	  width: 668px;
+	  background: #fff;
+	  padding-bottom: 10px;
+	  border: #e6e6e6 1px solid;
+	  border-radius: 5px;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 999px) {
+    .dynamic {
+	  width: 780px;
+	}
+
+	.dynamic dl {
+	  width: 760px;
+	  padding: 25px 0;
+	  overflow: hidden;
+	}
+
+	.dynamic dl dd {
+      float: right;
+      width: 460px;
+      overflow: hidden;
+      line-height: 24px;
+	}
+
+	.dynamic dl dd .con {
+	  width: 420px;
+	  background: #fff;
+	  padding-bottom: 10px;
+	  border: #e6e6e6 1px solid;
+	  border-radius: 5px;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+    .dynamic {
+	  width: 580px;
+	}
+
+	.dynamic dl {
+	  width: 560px;
+	  padding: 25px 0;
+	  overflow: hidden;
+	}
+
+	.dynamic dl dd {
+      float: right;
+      width: 320px;
+      overflow: hidden;
+      line-height: 24px;
+	}
+
+	.dynamic dl dd .con {
+	  width: 300px;
+	  background: #fff;
+	  padding-bottom: 10px;
+	  border: #e6e6e6 1px solid;
+	  border-radius: 5px;
+	}
+}
+
+@media (max-width: 599px) {
+    .dynamic {
+	  width: 380px;
+	}
+
+	.dynamic dl {
+	  width: 360px;
+	  padding: 25px 0;
+	  overflow: hidden;
+	}
+
+	.dynamic dl dd {
+      float: right;
+      width: 140px;
+      overflow: hidden;
+      line-height: 24px;
+	}
+
+	.dynamic dl dd .con {
+	  width: 100px;
+	  background: #fff;
+	  padding-bottom: 10px;
+	  border: #e6e6e6 1px solid;
+	  border-radius: 5px;
+	}
+}
+
+.dynamic dl dt {
+  float: left;
+  width: 200px;
+  font-size: 28px;
+  margin-top: -30px;
+}
+
+.dynamic dl dt em {
+  color: #00c6ff;
+  font-size: 70px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.dynamic dl dt span {
+  display: block;
+  color: #d4d4d4;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.dynamic dl dd .con h3 {
+  padding: 0 20px;
+  margin-top: 15px;
+  color: #000;
+  font-size: 18px;
+}
+
+.dynamic dl dd .con p {
+  color: #7e7e7e;
+  padding: 10px 20px;
+}
