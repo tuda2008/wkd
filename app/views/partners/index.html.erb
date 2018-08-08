@@ -47,7 +47,7 @@
           <ol class="menu-demo">
           <%- @partners.each do |partner| -%>
             <li class="col-md-4 col-sm-6">
-              <a class="jam-vip-box grit" href="javascript:void(0);">
+              <a class="jam-vip-box grit" href="<%= partner.url %>" target="_blank">
                 <i class="fa fa-star"></i> <%= h partner.title %>
               </a>
             </li>

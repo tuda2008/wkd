@@ -14,4 +14,8 @@ class Partner < ApplicationRecord
   
   scope :visible, -> { where(visible: true) }
   scope :invisible, -> { where(visible: false) }
+
+  def url
+  	self.web_url.blank? ? "javascript:void(0);" : self.web_url
+  end
 end
