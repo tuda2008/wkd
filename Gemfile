@@ -29,7 +29,6 @@ gem 'jbuilder', '~> 2.5'
 
 # Use ActiveStorage variant
 
-
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -39,8 +38,6 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise', '~> 4.4.0'
 gem 'activeadmin', '~> 1.3.0'
 gem 'kaminari', '~> 1.1.0'
-
-
 
 # 上传组件
 gem 'carrierwave', '1.2.0'

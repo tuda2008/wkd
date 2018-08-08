@@ -2,7 +2,7 @@ class HomeController < ApplicationController
   def index
     @products = Product.visible.limit(6)
     @customizes = CustomizeProduct.visible.limit(4)
-    @partners = Partner.visible.limit(6)
+    @partners = Partner.visible.limit(3)
     @carousels = []
     home_carousels = Carousel.visible.home.limit(1)
     unless home_carousels.empty?
