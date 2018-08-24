@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   #web
   root to: "home#index"
 
+  get 'home' => 'home#index'
   get 'about' => 'home#about', as: :about
   get 'contact' => 'home#contact', as: :contact
   get 'jobs' => 'home#jobs', as: :jobs

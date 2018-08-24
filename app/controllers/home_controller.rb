@@ -9,6 +9,11 @@ class HomeController < ApplicationController
       @carousels = home_carousels[0].images
     end
 
+    respond_to do |format|
+      format.html
+      format.json
+    end
+
     render layout: false
   end
 
