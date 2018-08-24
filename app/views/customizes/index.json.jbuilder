@@ -2,7 +2,7 @@ json.carousels @carousels do |image|
   json.url image.url(:large)
 end
 
-json.customize @customizes do |product|
+json.customize @products do |product|
   json.id product.id
   json.title product.title
   json.intro product.intro 
