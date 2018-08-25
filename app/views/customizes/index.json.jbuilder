@@ -1,5 +1,5 @@
 json.carousels @carousels do |image|
-  json.url image.url(:large)
+  json.url request.host + image.url(:large)
 end
 
 json.customize @products do |product|
@@ -7,7 +7,7 @@ json.customize @products do |product|
   json.title product.title
   json.intro product.intro 
   if product.images.size > 0
-    json.image product.images.first.url(:small)
+    json.image request.host + product.images.first.url(:small)
   else
     json.image ""
   end

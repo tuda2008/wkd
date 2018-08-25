@@ -19,9 +19,9 @@ class ProductsController < ApplicationController
   def show
     @product = Product.find(params[:id])
     if @product
-  	  @hot_products = Product.visible.not([@product.id]).limit(3)
+  	  @hot_products = Product.visible.not([@product.id]).limit(2)
   	else
-  	  @hot_products = Product.visible.limit(3)
+  	  @hot_products = Product.visible.limit(2)
   	end
 
     respond_to do |format|
