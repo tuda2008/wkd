@@ -4,7 +4,7 @@ json.customize do
   json.intro @product.intro
   json.description raw(@product.description)
   json.images @product.images do |image|
-	  json.url request.host + image.url(:large)
+	  json.url request.protocol + request.host + image.url(:large)
   end
 end
 
@@ -13,7 +13,7 @@ json.customize_products @hot_products do |product|
   json.title product.title
   json.intro product.intro 
   if product.images.size > 0
-    json.image request.host + product.images.first.url(:small)
+    json.image request.protocol + request.host + product.images.first.url(:small)
   else
     json.image ""
   end
