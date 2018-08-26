@@ -3,7 +3,7 @@ class PartnersController < ApplicationController
     @partners = Partner.visible.page(params[:page]).per(15)
 
     @carousels = []
-    home_carousels = Carousel.visible.home.limit(1)
+    home_carousels = Carousel.visible.partners.limit(1)
     unless home_carousels.empty?
       @carousels = home_carousels[0].images
     end

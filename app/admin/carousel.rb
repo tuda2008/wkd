@@ -48,7 +48,7 @@ ActiveAdmin.register Carousel do
     f.semantic_errors
 
     f.inputs do
-      f.input :tag, hint: '首页轮播此处设置为home'
+      f.input :tag, hint: '首页轮播此处设置为home，只能是home、products、customizes、partners其中之一'
       f.input :images, as: :file, input_html: { multiple: true }, hint: '尺寸不小于300x400'
       f.input :images, as: :file, input_html: { multiple: true }
       f.input :images, as: :file, input_html: { multiple: true }

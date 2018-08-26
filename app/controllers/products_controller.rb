@@ -3,7 +3,7 @@ class ProductsController < ApplicationController
   def index
     @products = Product.visible.page(params[:page]).per(10)
     @carousels = []
-    home_carousels = Carousel.visible.home.limit(1)
+    home_carousels = Carousel.visible.products.limit(1)
     unless home_carousels.empty?
       @carousels = home_carousels[0].images
     end
