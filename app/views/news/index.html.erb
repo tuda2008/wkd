@@ -48,7 +48,8 @@
             <%- @posts.each do |post| -%>
               <dl>
                 <dt>
-                  <em><%= post.created_at.strftime('%d') %></em><i><%= post.created_at.strftime('%m') %></i>月<span><%= post.created_at.strftime('%Y') %>年</span>
+                  <em><%= post.created_at.strftime('%m-%d') %></em>
+                  <span><%= post.created_at.strftime('%Y') %></span>
                 </dt>
                 <dd>
                   <div class="con">

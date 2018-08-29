@@ -4,169 +4,179 @@
 
 @media (min-width: 1280px) {
     .dynamic {
-	  width: 1200px;
+	   width: 1200px;
 	}
 
-	.dynamic dl {
-	  width: 1130px;
-	  padding: 25px 0;
-	  overflow: hidden;
+    .dynamic dl dt {
+	  float: left;
+	  width: 100px;
 	}
 
-	.dynamic dl dd {
-	  float: right;
-	  width: 930px;
-	  overflow: hidden;
-	  line-height: 24px;
+    .dynamic dl dt em {
+	  color: #00c6ff;
+	  display: inline-block;
+	  font-size: 24px;
+	  margin-top: -10px;
+	  margin-right: 5px;
 	}
 
-	.dynamic dl dd .con {
-	  width: 728px;
-	  background: #fff;
-	  padding-bottom: 10px;
-	  border: #e6e6e6 1px solid;
-	  border-radius: 5px;
+	.dynamic dl dt span {
+	  display: block;
+	  color: #d4d4d4;
+	  font-size: 30px;
+	  margin-top: 10px;
+	  line-height: 20px;
 	}
 }
 
 @media (min-width: 1200px) and (max-width: 1279px) {
     .dynamic {
-	  width: 1100px;
+	  min-width: 1100px;
 	}
 
-	.dynamic dl {
-	  width: 1030px;
-	  padding: 25px 0;
-	  overflow: hidden;
+	.dynamic dl dt {
+	  float: left;
+	  width: 100px;
 	}
 
-	.dynamic dl dd {
-	  float: right;
-	  width: 830px;
-	  overflow: hidden;
-	  line-height: 24px;
+    .dynamic dl dt em {
+	  color: #00c6ff;
+	  display: inline-block;
+	  font-size: 24px;
+	  margin-top: -10px;
+	  margin-right: 5px;
 	}
 
-	.dynamic dl dd .con {
-	  width: 668px;
-	  background: #fff;
-	  padding-bottom: 10px;
-	  border: #e6e6e6 1px solid;
-	  border-radius: 5px;
+	.dynamic dl dt span {
+	  display: block;
+	  color: #d4d4d4;
+	  font-size: 30px;
+	  margin-top: 10px;
+	  line-height: 20px;
 	}
 }
 
 @media (min-width: 1000px) and (max-width: 1199px) {
     .dynamic {
-	  width: 980px;
+	  min-width: 940px;
 	}
 
-	.dynamic dl {
-	  width: 960px;
-	  padding: 25px 0;
-	  overflow: hidden;
+    .dynamic dl dt {
+	  float: left;
+	  width: 100px;
 	}
 
-	.dynamic dl dd {
-      float: right;
-      width: 720px;
-      overflow: hidden;
-      line-height: 24px;
+    .dynamic dl dt em {
+	  color: #00c6ff;
+	  display: inline-block;
+	  font-size: 24px;
+	  margin-top: -10px;
+	  margin-right: 5px;
 	}
 
-	.dynamic dl dd .con {
-	  width: 668px;
-	  background: #fff;
-	  padding-bottom: 10px;
-	  border: #e6e6e6 1px solid;
-	  border-radius: 5px;
+	.dynamic dl dt span {
+	  display: block;
+	  color: #d4d4d4;
+	  font-size: 30px;
+	  margin-top: 10px;
+	  line-height: 20px;
 	}
 }
 
 @media (min-width: 800px) and (max-width: 999px) {
     .dynamic {
-	  width: 780px;
+	  min-width: 740px;
 	}
 
-	.dynamic dl {
-	  width: 760px;
-	  padding: 25px 0;
-	  overflow: hidden;
+	.dynamic dl dt {
+	  float: left;
+	  width: 100px;
 	}
 
-	.dynamic dl dd {
-      float: right;
-      width: 460px;
-      overflow: hidden;
-      line-height: 24px;
+    .dynamic dl dt em {
+	  color: #00c6ff;
+	  display: inline-block;
+	  font-size: 22px;
+	  margin-right: 5px;
 	}
 
-	.dynamic dl dd .con {
-	  width: 420px;
-	  background: #fff;
-	  padding-bottom: 10px;
-	  border: #e6e6e6 1px solid;
-	  border-radius: 5px;
+	.dynamic dl dt span {
+	  display: block;
+	  color: #d4d4d4;
+	  font-size: 24px;
+	  line-height: 20px;
 	}
 }
 
 @media (min-width: 600px) and (max-width: 799px) {
     .dynamic {
-	  width: 580px;
+	  min-width: 540px;
 	}
 
-	.dynamic dl {
-	  width: 560px;
-	  padding: 25px 0;
-	  overflow: hidden;
+	.dynamic dl dt {
+	  float: left;
+	  width: 100px;
 	}
 
-	.dynamic dl dd {
-      float: right;
-      width: 320px;
-      overflow: hidden;
-      line-height: 24px;
+    .dynamic dl dt em {
+	  color: #00c6ff;
+	  display: inline-block;
+	  font-size: 20px;
+	  margin-right: 5px;
 	}
 
-	.dynamic dl dd .con {
-	  width: 300px;
-	  background: #fff;
-	  padding-bottom: 10px;
-	  border: #e6e6e6 1px solid;
-	  border-radius: 5px;
+	.dynamic dl dt span {
+	  display: block;
+	  color: #d4d4d4;
+	  font-size: 22px;
+	  line-height: 20px;
 	}
 }
 
-@media (max-width: 599px) {
-    .dynamic {
-	  width: 380px;
+@media (min-width: 401px) and (max-width: 599px) {
+    .dynamic dl dt {
+	  float: left;
+	  width: 80px;
 	}
 
-	.dynamic dl {
-	  width: 360px;
-	  padding: 25px 0;
-	  overflow: hidden;
+    .dynamic dl dt em {
+	  color: #00c6ff;
+	  display: inline-block;
+	  font-size: 18px;
+	  margin-right: 5px;
 	}
 
-	.dynamic dl dd {
-      float: right;
-      width: 140px;
-      overflow: hidden;
-      line-height: 24px;
-	}
-
-	.dynamic dl dd .con {
-	  width: 100px;
-	  background: #fff;
-	  padding-bottom: 10px;
-	  border: #e6e6e6 1px solid;
-	  border-radius: 5px;
+	.dynamic dl dt span {
+	  display: block;
+	  color: #d4d4d4;
+	  font-size: 20px;
+	  line-height: 20px;
 	}
 }
 
 @media (max-width: 400px) {
 	.section img {
 	  max-width:300px;
+	}
+
+	.dynamic dl dt {
+	  float: left;
+	  width: 80px;
+	  margin-top: 10px;
+	}
+
+    .dynamic dl dt em {
+	  color: #00c6ff;
+	  display: inline-block;
+	  font-size: 18px;
+	  margin-right: 5px;
+	}
+
+	.dynamic dl dt span {
+	  display: block;
+	  color: #d4d4d4;
+	  font-size: 20px;
+	  line-height: 20px;
 	}
 }
 
@@ -180,37 +190,4 @@
 	.section img {
 	  max-width:360px;
 	}
-}
-
-.dynamic dl dt {
-  float: left;
-  width: 200px;
-  font-size: 28px;
-  margin-top: -30px;
-}
-
-.dynamic dl dt em {
-  color: #00c6ff;
-  font-size: 70px;
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.dynamic dl dt span {
-  display: block;
-  color: #d4d4d4;
-  font-size: 40px;
-  line-height: 40px;
-}
-
-.dynamic dl dd .con h3 {
-  padding: 0 20px;
-  margin-top: 15px;
-  color: #000;
-  font-size: 18px;
-}
-
-.dynamic dl dd .con p {
-  color: #7e7e7e;
-  padding: 10px 20px;
 }

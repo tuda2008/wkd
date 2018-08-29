@@ -48,7 +48,8 @@
             <%- @dynamics.each do |dynamic| -%>
               <dl>
                 <dt>
-                  <em><%= dynamic.created_at.strftime('%d') %></em><i><%= dynamic.created_at.strftime('%m') %></i>月<span><%= dynamic.created_at.strftime('%Y') %>年</span>
+                  <em><%= dynamic.created_at.strftime('%m-%d') %></em>
+                  <span><%= dynamic.created_at.strftime('%Y') %></span>
                 </dt>
                 <dd>
                   <div class="con">
