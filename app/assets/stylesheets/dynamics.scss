@@ -164,6 +164,24 @@
 	}
 }
 
+@media (max-width: 400px) {
+	.section img {
+	  max-width:300px;
+	}
+}
+
+@media (min-width: 401px) and (max-width: 500px) {
+	.section img {
+	  max-width:300px;
+	}
+}
+
+@media (min-width: 501px) and (max-width: 599px) {
+	.section img {
+	  max-width:360px;
+	}
+}
+
 .dynamic dl dt {
   float: left;
   width: 200px;
