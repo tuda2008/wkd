@@ -2,7 +2,7 @@ json.customize do
   json.id @product.id
   json.title @product.title
   json.intro @product.intro
-  json.description raw(@product.description)
+  json.description raw(@product.description.gsub("/uploads/redactor2_assets/images", "#{Redactor2RailsImageUploader.asset_host}/uploads/redactor2_assets/images"))
   json.images @product.images do |image|
 	  json.url image.url(:large)
   end
