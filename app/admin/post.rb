@@ -14,7 +14,10 @@ ActiveAdmin.register Post do
     selectable_column
     id_column
     column(:title, sortable: false) { |post| link_to post.title, admin_post_path(post) }
-    column :description, sortable: false
+    column(:description, sortable: false) do |post|
+      #raw(post.description)
+      post.description
+    end
     column :visible
     actions
   end

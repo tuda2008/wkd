@@ -15,7 +15,10 @@ ActiveAdmin.register Dynamic do
     id_column
     column(:title, sortable: false) { |dynamic| link_to dynamic.title, admin_dynamic_path(dynamic) }
     column :web_url, sortable: false
-    column :description, sortable: false
+    column(:description, sortable: false) do |dynamic|
+      #raw(dynamic.description)
+      dynamic.description
+    end
     column :visible
     actions
   end
