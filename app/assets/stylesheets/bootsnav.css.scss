@@ -1568,6 +1568,20 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
 }
 
+.menu-demo h2.title a.btn > .wx-code{
+    display: none;
+    width: 120px;
+    height: 120px;
+}
+
+.menu-demo h2.title a.btn {
+    position: relative;
+}
+
+.menu-demo h2.title a.btn:hover > .wx-code{
+    display: block;
+}
+
 /* footer start */
 .footer{
     background-color: #f6f6f6;

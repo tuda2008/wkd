@@ -1,5 +1,5 @@
 require 'net/http'
-urls = ['https://www.gxboli.cn/customizes/5', 'https://www.gxboli.cn/products/6']
+urls = ['https://www.gxboli.cn/about', 'https://www.gxboli.cn/products']
 uri = URI.parse('http://data.zz.baidu.com/urls?site=https://www.gxboli.cn&token=GfjwDReE5w7xafu4')
 req = Net::HTTP::Post.new(uri.request_uri)
 req.body = urls.join("\n")
