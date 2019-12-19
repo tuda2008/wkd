@@ -8,7 +8,7 @@ GIT
       orm_adapter
 
 GEM
-  remote: https://ruby.taobao.org/
+  remote: https://gems.ruby-china.com/
   specs:
     actioncable (5.2.0)
       actionpack (= 5.2.0)
@@ -184,7 +184,7 @@ GEM
     posix-spawn (0.3.13)
     public_suffix (3.0.2)
     puma (3.12.0)
-    rack (2.0.5)
+    rack (2.0.8)
     rack-attack (5.4.0)
       rack (>= 1.0, < 3)
     rack-test (1.1.0)
